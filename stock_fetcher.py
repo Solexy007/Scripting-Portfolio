@@ -1,7 +1,7 @@
 import requests
 import csv
 
-# Free API key (replace if necessary)
+# Free API key (replace with an active key from [www.alphavantage.co] if it fails)
 api_key = "6QULJW6WUQAKB2RI"
 url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey={api_key}"
 response = requests.get(url)
